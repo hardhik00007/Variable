@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.variable.app.AppController" onDragOver="#handleDragOver" onDragDropped="#handleDrop">
+    <top>
+        <VBox>
+            <ToolBar styleClass="top-toolbar">
+                <Label text="Variable" styleClass="wordmark" />
+                <Region HBox.hgrow="ALWAYS" />
+                <Button mnemonicParsing="false" onAction="#openFile" styleClass="open-button" text="Open file" />
+            </ToolBar>
+            <Separator />
+        </VBox>
+    </top>
+    <left>
+        <VBox styleClass="sidebar">
+            <Label text="WORKSPACE" styleClass="sidebar-label" />
+            <Label text="Files you open appear here." styleClass="sidebar-note" wrapText="true" />
+        </VBox>
+    </left>
+    <center>
+        <StackPane styleClass="workspace">
+            <TabPane fx:id="workspaceTabs" styleClass="workspace-tabs">
+                <tabs>
+                    <Tab closable="false" text="Welcome">
+                        <content>
+                            <StackPane styleClass="empty-state">
+                                <VBox alignment="CENTER" maxWidth="340" spacing="12">
+                                    <Label text="Open a file" styleClass="empty-title" />
+                                    <Label text="Variable is a quiet place to read files. Start with a UTF-8 text file, or drop one anywhere in this window." styleClass="empty-copy" textAlignment="CENTER" wrapText="true" />
+                                    <Button mnemonicParsing="false" onAction="#openFile" styleClass="open-button" text="Choose file" />
+                                </VBox>
+                            </StackPane>
+                        </content>
+                    </Tab>
+                </tabs>
+            </TabPane>
+        </StackPane>
+    </center>
+    <bottom>
+        <HBox styleClass="status-bar">
+            <Label fx:id="statusLabel" />
+        </HBox>
+    </bottom>
+</BorderPane>

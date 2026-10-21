@@ -1,0 +1,36 @@
+.root { -fx-background-color: #f5f2ec; -fx-font-family: "SF Pro Text", "Helvetica Neue", Arial, sans-serif; -fx-text-fill: #262421; }
+.top-toolbar { -fx-background-color: #fbfaf7; -fx-padding: 10 16; -fx-spacing: 10; }
+.wordmark { -fx-font-size: 16px; -fx-font-weight: 700; -fx-text-fill: #292724; }
+.open-button { -fx-background-color: #4d5047; -fx-text-fill: white; -fx-background-radius: 4; -fx-padding: 7 12; -fx-font-size: 12px; }
+.open-button:hover { -fx-background-color: #3e4139; }
+.sidebar { -fx-pref-width: 172; -fx-spacing: 9; -fx-padding: 24 18; -fx-background-color: #eeebe5; -fx-border-color: transparent #dad6ce transparent transparent; }
+.sidebar-label { -fx-font-size: 10px; -fx-font-weight: 700; -fx-text-fill: #706c66; -fx-letter-spacing: 0.8px; }
+.sidebar-note { -fx-font-size: 12px; -fx-text-fill: #858078; }
+.workspace { -fx-background-color: #fbfaf7; }
+.workspace-tabs > .tab-header-area { -fx-padding: 7 12 0; -fx-background-color: #f5f2ec; }
+.workspace-tabs > .tab-header-area .tab { -fx-background-color: transparent; -fx-background-radius: 0; -fx-padding: 6 11; }
+.workspace-tabs > .tab-header-area .tab:selected { -fx-background-color: #fbfaf7; -fx-border-color: #b5aa94 transparent transparent transparent; -fx-border-width: 2 0 0 0; }
+.workspace-tabs > .tab-content-area { -fx-background-color: #fbfaf7; }
+.empty-state { -fx-background-color: #fbfaf7; }
+.empty-title { -fx-font-size: 19px; -fx-font-weight: 600; -fx-text-fill: #302e2a; }
+.empty-copy { -fx-font-size: 13px; -fx-text-fill: #77736d; -fx-line-spacing: 3; }
+.document-text { -fx-font-family: "SF Mono", Menlo, Monaco, monospace; -fx-font-size: 13px; -fx-background-color: #fbfaf7; -fx-control-inner-background: #fbfaf7; -fx-text-fill: #2d2b28; -fx-padding: 20; }
+.viewer-message { -fx-text-fill: #716a61; -fx-font-size: 13px; }
+.image-viewer { -fx-background-color: #f7f4ee; -fx-padding: 32; }
+.image-error { -fx-max-width: 360; }
+.image-error-title { -fx-font-size: 14px; -fx-font-weight: 600; -fx-text-fill: #393631; }
+.pdf-viewer { -fx-background-color: #e9e5dd; }
+.pdf-toolbar { -fx-alignment: CENTER_LEFT; -fx-padding: 7 12; -fx-background-color: #fbfaf7; -fx-border-color: transparent transparent #dad6ce transparent; }
+.pdf-toolbar .button { -fx-background-color: transparent; -fx-border-color: #d2cdc3; -fx-border-radius: 3; -fx-background-radius: 3; -fx-padding: 4 8; -fx-font-size: 12px; -fx-text-fill: #49453f; }
+.pdf-toolbar .button:hover { -fx-background-color: #f0ece4; }
+.pdf-toolbar .button:disabled { -fx-opacity: 0.45; }
+.pdf-page-field { -fx-max-width: 44; -fx-pref-width: 44; -fx-background-radius: 3; -fx-border-radius: 3; -fx-border-color: #d2cdc3; -fx-font-size: 12px; -fx-padding: 4 6; }
+.pdf-toolbar .label { -fx-font-size: 12px; -fx-text-fill: #6f6a62; }
+.pdf-scroll-pane { -fx-background: #e9e5dd; -fx-background-color: #e9e5dd; -fx-padding: 22 0; }
+.pdf-scroll-pane > .viewport { -fx-background-color: #e9e5dd; }
+.pdf-page-list { -fx-padding: 0 32 32; }
+.pdf-page { -fx-background-color: white; -fx-border-color: #d9d4ca; -fx-border-width: 1; }
+.pdf-page-placeholder { -fx-font-size: 11px; -fx-text-fill: #938d84; }
+.pdf-loading-state { -fx-background-color: #fbfaf7; -fx-padding: 32; }
+.status-bar { -fx-padding: 6 12; -fx-background-color: #eeebe5; -fx-border-color: #dad6ce transparent transparent transparent; -fx-text-fill: #706c66; }
+.status-bar .label { -fx-font-size: 11px; -fx-text-fill: #706c66; }
